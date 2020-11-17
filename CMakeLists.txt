@@ -1,6 +1,6 @@
 file(GLOB_RECURSE ARGTABLE_SOURCES
-    ./include/thirdparty/argtable3/*.h
-    ./thirdparty/argtable3/*.c
+    ./deps/argtable3/*.h
+    ./deps/argtable3/*.c
 )
 
 add_library(libargtable
