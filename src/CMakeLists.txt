@@ -11,3 +11,4 @@ add_library(libargtable3
 )
 
 target_compile_options(libargtable3 PRIVATE ${flags})
+target_link_libraries(libargtable3 m)
